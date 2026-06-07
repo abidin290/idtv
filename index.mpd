@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/shaka-project/shaka-packager version v3.0.4-20260113-082015-b3402f8c-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT2688.240967S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="0" bandwidth="103946" codecs="opus" mimeType="audio/webm" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>a-libopus-ETS2fd5af54d3f5111d0.etsvod.webm?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c</BaseURL>
+        <SegmentBase indexRange="351-8137" timescale="1000000" presentationTimeOffset="70000">
+          <Initialization range="0-350"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1600" maxHeight="1080" frameRate="1000000/16000" par="23:17">
+      <Representation id="1" bandwidth="468028" codecs="vp09.00.30.08.00.02.02.02.00" mimeType="video/webm" sar="242:267" width="534" height="360">
+        <BaseURL>v-ETS2fd5af54d3f5111d0-vp9_med.etsvod.webm?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c</BaseURL>
+        <SegmentBase indexRange="332-8363" timescale="1000000" presentationTimeOffset="70000">
+          <Initialization range="0-331"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="756446" codecs="vp09.00.30.08.00.02.02.02.00" mimeType="video/webm" sar="323:356" width="712" height="480">
+        <BaseURL>v-ETS2fd5af54d3f5111d0-vp9_med-high.etsvod.webm?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c</BaseURL>
+        <SegmentBase indexRange="332-8377" timescale="1000000" presentationTimeOffset="70000">
+          <Initialization range="0-331"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="1467418" codecs="vp09.00.40.08.00.02.02.02.00" mimeType="video/webm" sar="969:1066" width="1066" height="720">
+        <BaseURL>v-ETS2fd5af54d3f5111d0-vp9_high.etsvod.webm?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c</BaseURL>
+        <SegmentBase indexRange="332-8384" timescale="1000000" presentationTimeOffset="70000">
+          <Initialization range="0-331"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="2751779" codecs="vp09.00.41.08.00.02.02.02.00" mimeType="video/webm" sar="1453:1600" width="1600" height="1080">
+        <BaseURL>v-ETS2fd5af54d3f5111d0-vp9_premier.etsvod.webm?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c</BaseURL>
+        <SegmentBase indexRange="332-8385" timescale="1000000" presentationTimeOffset="70000">
+          <Initialization range="0-331"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="text" lang="id" subsegmentAlignment="true">
+    <Label>Indonesian</Label>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Label>Indonesian</Label>
+      <Representation id="5" bandwidth="105" mimeType="text/vtt">
+        <SegmentList timescale="1000" presentationTimeOffset="70">
+          <SegmentURL media="sub-ETS2fd5af54d3f5111d0-id.vtt?hdntl=exp=1780895317~acl=/uploads/2544472/*~id=24889614~data=hdntl~hmac=2eb6ffafe48c4a77a8b83d60dc9cbe7042b11459aa80fb7426fed64e22544b7c"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
